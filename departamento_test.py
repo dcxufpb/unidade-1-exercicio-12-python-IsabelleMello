@@ -102,7 +102,6 @@ def test_valida_nome_coordenador():
     verifica_campo_obrigatorio_objeto(MENSAGEM_NOME_COORDENADOR_OBRIGATORIO, NOME_COORDENADOR_NULO)
     verifica_campo_obrigatorio_objeto(MENSAGEM_NOME_COORDENADOR_OBRIGATORIO, NOME_COORDENADOR_VAZIO)
 
-
 COORDENADOR_CPF_NULO = departamento.Coordenador(NOME_COORDENADOR, IDADE, None)
 COORDENADOR_CPF_VAZIO = departamento.Coordenador(NOME_COORDENADOR, IDADE, "")
 CPF_NULO = departamento.Departamento(NOME_DEPARTAMENTO, SIGLA, LOCALIZACAO, COORDENADOR_CPF_NULO)
